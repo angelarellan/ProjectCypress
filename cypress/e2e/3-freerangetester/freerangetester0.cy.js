@@ -63,7 +63,7 @@ describe ('home de www.freerangetesters.com', () => {
       it ('El elemento está checked', ()=>{
         cy.wait(3000)
         cy.get('******le pasas el cy.get'********).should('be.checked') 
-      })*/
+      })
 
 
       /*el elemento está desactivado
@@ -86,5 +86,6 @@ describe ('home de www.freerangetesters.com', () => {
       cy.get('').should('be.checked')
       cy.get('#form').find('[type=checkedbox"]').should('be.checked')*/
 
+      //comments code//
 /*
-*/
+*/ 
