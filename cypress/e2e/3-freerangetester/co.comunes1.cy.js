@@ -10,6 +10,9 @@ describe ("pruebas sobre UI", ()=>{
       cy.contains('Click Here').invoke('removeAttr','target').click()
       cy.contains('New Window').should('have.text', 'New Window')
 
+
+
+      ///coment///
     })
 
 
